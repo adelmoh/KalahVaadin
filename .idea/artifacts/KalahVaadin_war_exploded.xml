@@ -1,16 +1,28 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="KalahVaadin:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/KalahVaadin_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/kalah-1.0-SNAPSHOT</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="KalahVaadin/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="KalahVaadin" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Vaadin Server" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-server:7.7.3" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-sass-compiler:0.9.13" />
+          <element id="library" level="project" name="Maven: org.w3c.css:sac:1.3" />
+          <element id="library" level="project" name="Maven: com.vaadin.external.flute:flute:1.3.0.gg2" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-shared:7.7.3" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.8.3" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-client-compiled:7.7.3" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-themes:7.7.3" />
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
         </element>
       </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/kalah-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="KalahVaadin/web/Web" />
     </root>
   </artifact>
 </component>
